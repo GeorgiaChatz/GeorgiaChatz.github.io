@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: GeorgiaChatz/GeorgiaChatz.github.io.git
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -63,7 +63,7 @@ content:
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/GeorgiaChatz/GeorgiaChatz.github.io.git
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -118,6 +118,12 @@ footer_show_references: true
 
 # Build settings
 remote_theme: sproogen/resume-theme
+
+download_links:
+        PDF: url.pdf
+        YAML: url.yml
+        Whatever: anything you put here will show up as a download link in the upper right corner
+    no_lines: true  # set this if you don't like the horizontal lines that go with section titles
 
 sass:
   sass_dir: _sass
